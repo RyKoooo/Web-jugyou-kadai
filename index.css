@@ -1,0 +1,24 @@
+div{
+    width: 600px;
+    margin: auto;
+}
+
+input{
+    margin-left: 140px;
+}
+
+li:nth-child(odd){
+    background: url("jsquiz/img/cat_left.png");
+    width: 340px;
+    height: 60px;
+    padding: 120px 20px 20px 20px;
+    list-style: none;
+}
+
+li:nth-child(even){
+    background: url("jsquiz/img/dog_right.png");
+    width: 340px;
+    height: 60px;
+    padding: 120px 20px 20px 20px;
+    list-style: none;
+}
