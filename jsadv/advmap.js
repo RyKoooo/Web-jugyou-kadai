@@ -24,21 +24,21 @@ document.addEventListener('keyup',(event) => {
     let keyname = event.key;
     console.log(keyname);
     let fname = images[map[y][x]];
-    if(keyname == 'Arrowleft'){
-        if(fname.indexof('left') > -1){
+    if(keyname == 'ArrowLeft'){
+        if(fname.indexOf('left') > -1){
         x -= 1;
         }
     } else if(keyname == 'ArrowRight'){
-        if(fname.indexof('right') > -1){
-        x += 1;
+        if(fname.indexOf('right') > -1){
+            x += 1;
         }
-    } else if(keyname == 'ArrowUP'){
-        if(fname.indexof('up') > -1){
-        y -= 1;
+    } else if(keyname == 'ArrowUp'){
+        if(fname.indexOf('up') > -1){
+            y -= 1;
         }
-    } else if(keyname == 'ArrowDown'){
-        if(fname.indexof('down') > -1){
-        y += 1;
+    }else if(keyname == 'ArrowDown'){
+        if(fname.indexOf('down') > -1){
+            y += 1;
         }
     }
     showMap();

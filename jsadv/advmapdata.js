@@ -21,7 +21,7 @@ let images = {
     'G':'goal',
     'S':'deadend',
     'K':'key',
-    'D':'dorr',
+    'D':'door',
 };
 
 let x = 2;

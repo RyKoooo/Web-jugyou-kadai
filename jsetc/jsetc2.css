@@ -1,0 +1,23 @@
+div.haikei{
+    background: url("img/haikei.png");
+    width: 460px;
+    height: 460px;
+    margin:  auto;
+}
+
+div.ichi{
+    height: 150px;
+}
+
+div.p1{
+    margin-left: 140px;
+}
+
+input{
+    margin-left: 140px;
+}
+
+div.kotae{
+    margin-top: 20px;
+    margin-left: 100px;
+}
